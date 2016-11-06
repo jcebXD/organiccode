@@ -1,0 +1,23 @@
+{
+  "name": "organiccode",
+  "version": "0.0.1",
+  "description": "A software company.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "supervisor server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcebXD/organiccode.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "jcebxd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcebXD/organiccode/issues"
+  },
+  "homepage": "https://github.com/jcebXD/organiccode#readme"
+}
