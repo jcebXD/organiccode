@@ -4,84 +4,107 @@
     <meta charset="UTF-8">
     <title>Organic Code Software Company</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet2.css" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Roboto+Condensed:300,400,700" rel="stylesheet">
   </head>
   <body>
-    <section class="page-header">
-      <div class="v-center">
-        <h1 class="project-name">Organic Code</h1>
-        <h2>Te ayudamos a construir software.</h2>
+    <div class="container">
+      <div class="col-md-12 col-sm-12">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>Organic Code</h1>
+            <h2>Te ayudamos a construir software</h2>
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <ul class="menu">
+              <li>
+                <a href="#" data-toggle="modal" data-target="#us">Nosotros</a>
+              </li>
+              <li>
+                <a href="#" data-toggle="modal" data-target="#clients">Clientes</a>
+              </li>
+              <li>
+                <a href="#" data-toggle="modal" data-target="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </section>
-    <section>
-      <h1>Servicios</h1>
-      <ul>
-        <li>Código limpio</li>
-        <li>Disponible para multiples dispositivos</li>
-        <li>Pruebas del producto</li>
-      </ul>
-    </section>
-    <section>
-      <h1>¿Cómo lo hacemos?</h1>
-      <table class="full-width">
-        <tr>
-          <td>
-            <h2>Entender tus necesidades</h2>
-            <p>Nos reunimos contigo, para entender tus necesidades.</p>
-          </td>
-          <td>
-            <h2>Proponer soluciones</h2>
-            <p>Siempre ofrecemos solución a los procesos.</p>
-          </td>
-          <td>
-            <h2>Definición de tiempos</h2>
-            <p>Consideramos en el desarrollo, </p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h2>Programación</h2>
-          </td>
-          <td>
-            <h2>Lanzamiento</h2>
-          </td>
-          <td>
-            <h2>Soporte</h2>
-          </td>
-        </tr>
-      </table>
-    </section>
-    <section>
-      <h1>Nuestros valores</h1>
-      <table class="full-width">
-        <tr>
-          <td>
-            <h2>Comunicación</h2>
-          </td>
-          <td>
-            <h2>Creatividad</h2>
-          </td>
-          <td>
-            <h2>Buenas prácticas</h2>
-          </td>
-        </tr>
-      </table>
-    </section>
-    <footer>
-      <h3>
-        <a href="/#us">Nosotros</a>
-      </h3>
-      <h3>
-        <a href="/#services">Servicios</a>
-      </h3>
-      <h3>
-        <a href="/#clients">Clientes</a>
-      </h3>
-      <h3>
-        <a href="/#contact">Contactanos</a>
-      </h3>
-    </footer>
+    </div>
+
+    <div id="us" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Nosotros</h3>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+            Entendemos tus necesidades, proponemos soluciones, definimos tiempos, mantenemos una comunicación sana, desarrollamos de forma ágil, con los estandares más altos del mercado. Ponemos a producción tu solución y te damos soporte para mantenimiento y capacitación del personal sobre el proyecto.
+            <br>
+            <br>
+            Lo más importante para nosotros es cumplir a tiempo.
+            </p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="clients" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Clientes</h3>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="contact" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Contacto</h3>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label class="lead">Empresa</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label class="lead">Nombre</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label class="lead">Correo</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label class="lead">Telefono</label>
+                <input type="phone" class="form-control">
+              </div>
+              <div class="form-group">
+                <label class="lead">Comentarios</label>
+                <textarea class="form-control" rows="5"></textarea>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
