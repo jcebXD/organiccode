@@ -19,9 +19,13 @@ body {
   background: #f9f9f9;
 }
 
-.container {
+.container, .full {
   display: table;
   min-height: 100%;
+}
+
+.full {
+  width: 100%;
 }
 
 .section h2 {
@@ -36,6 +40,12 @@ body {
 }
 
 .row {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.valign {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
@@ -120,6 +130,11 @@ h2 + table, h2 + .lead, h2 + #wufoo-z1o1aux5134nwka {
   color: #f9f9f9;
   transition: all .5s ease;
   outline: none;
+}
+
+.project {
+  background: green;
+  height: 200px;
 }
 
 @media screen and (min-width: 64em) {
