@@ -61,18 +61,13 @@ h1 + h2 {
   font-size: 30px;
 }
 
-h2 + .lead {
-  margin-top: 100px;
-}
-
-h2 + table {
+h2 + table, h2 + .lead, h2 + #wufoo-z1o1aux5134nwka {
   margin-top: 100px;
 }
 
 .table-bordered > tbody > tr > td {
   vertical-align: middle;
   color: #FFF;
-  text-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
 
 .table-bordered > tbody > tr:first-child > td:nth-child(1) {
